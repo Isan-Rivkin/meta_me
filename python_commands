@@ -1,0 +1,13 @@
+
+### virtual enviornment ### 
+
+- install virtualenv 
+$pip3 install virtualenv 
+- check virtualenv
+$which virtualenv 
+- to see python path and version 
+$which python3 
+- to create a virtual env 
+$virtualenv <my_project> -p <python interpreter>
+- to start the env 
+$source <my_project>/bin/activate
