@@ -1,0 +1,6 @@
+### Linux networking ### 
+- see all interfaces and they status UP,LOWER_UP 
+$ip link 
+// UP - configured, LOWER_UP - phisycal connection established 
+- see ip address for each of the interfaces 
+$ip addr 
