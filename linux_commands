@@ -35,6 +35,9 @@ $mount /path/to/mount /mnt
 ### Linux networking ### 
 ########################
 
+- forward all ips incase they are not mine
+$echo 1 > sudo /proc/sys/net/ipv4/ip_forward
+
 - see all interfaces and they status UP,LOWER_UP 
 $ip link // UP - configured, LOWER_UP - phisycal connection established 
 
